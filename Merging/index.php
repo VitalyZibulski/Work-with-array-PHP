@@ -10,7 +10,6 @@
 
 	var_dump($allUsers);
 
-	<?php
 
 $originalState =
 
