@@ -1,14 +1,9 @@
 <?php
 
 
-	$users = ['antony', 'ron'];
+	$users = ['antony', 'ron', 'antony1', 'ron1'];
 
-	$moreUsers = ['antony1', 'ron1'];
-
-
-	$allUsers = array_merge($users, $moreUsers);
-
-	var_dump($allUsers);
+	echo implode(',', $users);
 
 
 $users = 'antony, ron, antony1,ron1';
